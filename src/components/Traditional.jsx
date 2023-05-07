@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
+import { Link } from "react-router-dom";
 
 function Traditional() {
   const [traditional, setTraditional] = useState([]);
@@ -44,10 +45,10 @@ function Traditional() {
             return (
               <SplideSlide key={recipe.id}>
                 <Card>
-                  <div>
+                  <Link to={"/recipe/" + recipe.id}>
                     <p>{recipe.title}</p>
                     <img src={recipe.image} alt={recipe.title} />
-                  </div>
+                  </Link>
                   <Gradient />
                 </Card>
               </SplideSlide>
