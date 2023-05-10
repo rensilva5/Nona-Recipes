@@ -10,6 +10,8 @@
 
 ### Category.jsx, Search.jsx, Traditional.jsx, Veggie.jsx as we go.
 
+### Create .env to save sensitive informatio such as
+
 ## Pages:
 
 ### We will be using routes, so import libraries accondingly. Cuisine, Home, Pages (Set routes inside this component.), Recipe, Searched.
@@ -22,10 +24,20 @@
 - Node.js
 - React.js
 
+[See Express](https://expressjs.com/)
+
+[See Node.js](https://nodejs.org/en)
+
+[See React.sj](https://react.dev/)
+
 ## Note Credict to:
 
-### I am using "https://spoonacular.com/food-api/" to fetch API (ending point).
+### I am using Spoooacular Website to fetch API (ending point) and a key.
+
+[See Spoonacular](https://spoonacular.com/food-api/)
 
 ## Deployment:
+
+### We will be using GitHub About to create a web.
 
 ## Demo:

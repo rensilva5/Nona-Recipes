@@ -32,13 +32,14 @@ function Traditional() {
   return (
     <div>
       <Wrapper>
-        <h3>Traditional Pick</h3>
+        <h3>Traditional Picks</h3>
         <Splide
           options={{
-            perPage: 4,
+            perPage: 3,
             arrows: false,
-            pagination: "free",
-            gap: "5rem",
+            pagination: false,
+            drag: "free",
+            gap: "4rem",
           }}
         >
           {traditional.map((recipe) => {
@@ -70,10 +71,11 @@ const Card = styled.div`
 
   img {
     border-radius: 2rem;
-    position: 0;
+    position: absolute;
+    left: 0;
     width: 100%;
     height: 100%
-    object-fit: cover
+    object-fit: cover;
   }
   p {
      position: absolute;
@@ -82,8 +84,9 @@ const Card = styled.div`
      botton: 0%;
      transform: translate(-50%, 0%);
      color: white;
-     widht: 100%;
+     width: 100%;
      text-align: center;
+     font-weight: 600;
      font-size: 1rem;
      height: 40%;
      display: flex;
@@ -93,11 +96,11 @@ const Card = styled.div`
 `;
 
 const Gradient = styled.div`
-z-index: 3;
-position: absolute;
-width: 100%:
-height: 100%:
-background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5))
+  z-index: 3;
+  position: absolute;
+  // width: 100%;
+  // height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 `;
 
 export default Traditional;

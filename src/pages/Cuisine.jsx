@@ -19,7 +19,12 @@ function Cuisine() {
     console.log(params.type);
   }, [params.type]);
   return (
-    <Grid>
+    <Grid
+      animate={{ opacity: 1 }}
+      opacity={{ opacity: 0 }}
+      exit={{ op: 0 }}
+      transition={{ dutation: 0.5 }}
+    >
       {cuisine.map((item) => {
         return (
           <Card key={item.id}>
@@ -34,7 +39,7 @@ function Cuisine() {
   );
 }
 
-const Grid = styled.div`
+const Grid = styled(motion.div)`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   grid-gap: 3rem;
@@ -49,7 +54,7 @@ const Card = styled.div`
   }
   h4 {
     text-align: center;
-    pappding: 1rem;
+    padding: 1rem;
   }
 `;
 

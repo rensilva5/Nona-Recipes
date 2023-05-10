@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Nav>
           <TbToolsKitchen />
-          <logo to={"/"}>GrandMa'sRecipes</logo>
+          <Logo to={"/"}>GrandMa's Recipes</Logo>
         </Nav>
         <Search />
         <Pages />
@@ -21,7 +21,7 @@ function App() {
   );
 }
 
-const logo = styled(Link)`
+const Logo = styled(Link)`
   text-decotation: none;
   font-size: 1.5rem;
   font-weight: 400;

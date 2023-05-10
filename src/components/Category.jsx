@@ -1,12 +1,10 @@
+import React from "react";
 import { GiHamburger } from "react-icons/gi";
 import { GiChopsticks } from "react-icons/gi";
 import { GiFullPizza } from "react-icons/gi";
 import { GiNoodles } from "react-icons/gi";
-
-import styled from "styled-components";
-
-import React from "react";
 import { NavLink } from "react-router-dom";
+import styled from "styled-components";
 
 function Category() {
   return (
@@ -31,9 +29,9 @@ function Category() {
   );
 }
 const List = styled.div`
-display: flex;
-justify-content: center
-margin: 2rem 0rem
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0rem;
 `;
 const StyledLink = styled(NavLink)`
 display: flex;
