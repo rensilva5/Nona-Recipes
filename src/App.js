@@ -14,8 +14,8 @@ function App() {
           <Logo to={"/"}>GrandMa's Recipes</Logo>
         </Nav>
         <Search />
-        <Pages />
         <Category />
+        <Pages />
       </BrowserRouter>
     </div>
   );

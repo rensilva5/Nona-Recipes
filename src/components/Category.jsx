@@ -9,6 +9,7 @@ import styled from "styled-components";
 function Category() {
   return (
     <List>
+      {/* <NavLink to={} */}
       <StyledLink to={"/cuisine/Italian"}>
         <GiFullPizza />
         <h4>Italian</h4>
