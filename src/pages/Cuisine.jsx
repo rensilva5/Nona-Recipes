@@ -23,7 +23,7 @@ function Cuisine() {
       animate={{ opacity: 1 }}
       opacity={{ opacity: 0 }}
       exit={{ op: 0 }}
-      transition={{ dutation: 0.5 }}
+      transition={{ duration: 0.5 }}
     >
       {cuisine.map((item) => {
         return (

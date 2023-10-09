@@ -12,7 +12,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* margin: 0% 20%; */
+}
+
+/* Add your custom font-family if needed */
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
 code {
@@ -26,11 +30,11 @@ h4 {
 }
 h3 {
   font-size: 1.5rem;
-  color: rgb(56, 56, 56);
+  color: rgb(20, 79, 79);
   list-style: 2.5rem;
-  margin: 2rem 0rem;
+  margin: 2rem 0rem 2.5rem;
 }
 
 a {
-  color: rgb(56, 56, 56);
+  color: rgb(20, 70, 79);
 }

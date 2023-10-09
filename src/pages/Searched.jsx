@@ -44,10 +44,16 @@ const Card = styled.div`
   }
   a {
     text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: text-decoration 0.2s;
+  }
+  a:hover {
+    text-decoration: #0056b3;
   }
   h4 {
     text-align: center;
-    pappding: 1rem;
+    padding: 1rem;
   }
 `;
 

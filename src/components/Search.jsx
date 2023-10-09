@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 function Search() {
   const [input, setInput] = useState("");
-  const navigate = useNavigate;
+  const navigate = useNavigate(); // Add parentheses to call useNavigate as a function
 
   const submitHandler = (e) => {
     e.preventDefault();
@@ -49,6 +49,6 @@ const FormStyle = styled.form`
     transform: translate(100%, -50%);
     color: white;
   }
-`;
-
+};
+`
 export default Search;

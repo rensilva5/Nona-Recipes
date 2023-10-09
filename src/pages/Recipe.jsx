@@ -47,8 +47,8 @@ function Recipe() {
         )}
         {activeTab === "ingredients" && (
           <ul>
-            {details.extendedIngredients.map((ingredients) => {
-              <li key={ingredients.id}>{ingredients.original}</li>;
+            {details.extendedIngredients.map((ingredient) => {
+              <li key={ingredient.id}>{ingredient.original}</li>;
             })}
           </ul>
         )}
@@ -59,14 +59,14 @@ function Recipe() {
 
 const DetailWrapper = styled.div`
   margin-top: 10rem;
-  margin-botton: 2rem;
+  margin-bottom: 2rem;
   display: flex;
   .active {
     background: linear-gradient(35deg, #494949, #313131);
     color: white;
   }
   h2 {
-    margin-botton: 2rem;
+    margin-bottom: 2rem;
   }
   li {
     font-size: 1.2rem;
@@ -79,7 +79,7 @@ const DetailWrapper = styled.div`
 const Button = styled.button`
   padding: 1rem 2rem;
   color: #313131;
-  background: white;
+  background: salmon;
   border: 2px solid black;
   margin-right: 2rem;
   font-weight: 600;
