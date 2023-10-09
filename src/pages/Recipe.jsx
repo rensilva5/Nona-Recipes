@@ -58,7 +58,7 @@ function Recipe() {
 }
 
 const DetailWrapper = styled.div`
-  margin-top: 10rem;
+  margin-top: 5rem;
   margin-bottom: 2rem;
   display: flex;
   .active {
@@ -73,7 +73,8 @@ const DetailWrapper = styled.div`
     line-height: 2.5rem;
   }
   ul {
-    margin-top: 2rem;
+    margin-top: 30rem;
+    padding: 5rem;
   }
 `;
 const Button = styled.button`

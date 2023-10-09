@@ -60,27 +60,27 @@ function Veggie() {
   );
 }
 const Wrapper = styled.div`
-  margin: 4rem 0rem;
+  margin: 4rem 4rem;
 `;
 const Card = styled.div`
-  min-height: 25rem;
+  min-height: 10rem;
   border-radius: 2rem;
   overflow: hidden;
-  position: absolute;
+  position: relative;
 
   img {
     border-radius: 2rem;
     position: absolute;
     left: 0;
     width: 100%;
-    height: 100%;
+    // height: 100%;
     object-fit: cover;
   }
   p {
     position: absolute;
     z-index: 10;
     left: 50%;
-    bottom: 0%; /* Fix the typo here */
+    bottom: 0%;
     transform: translate(-50%, 0%);
     color: white;
     width: 100%;

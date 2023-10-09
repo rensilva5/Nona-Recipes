@@ -1,3 +1,4 @@
+/* Corrected background image usage */
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +13,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./assets/backgroundImage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
 }
 
 /* Add your custom font-family if needed */
@@ -26,15 +32,17 @@ code {
 
 h4 {
   font-size: 1rem;
-  color: rgb(56, 56, 56);
+  /* color: rgb(56, 56, 56); */
+  color: white;
 }
 h3 {
   font-size: 1.5rem;
-  color: rgb(20, 79, 79);
+  /* color: rgb(20, 79, 79); */
+  color: white;
   list-style: 2.5rem;
   margin: 2rem 0rem 2.5rem;
 }
 
 a {
-  color: rgb(20, 70, 79);
+  color: white;
 }

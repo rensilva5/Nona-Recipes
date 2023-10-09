@@ -27,10 +27,13 @@ function Search() {
 }
 
 const FormStyle = styled.form`
-  margin: 0rem 20rem;
+  margin: 0rem 0rem;
+  display: flex;
+  justify-content: center;
+
   div {
     position: relative;
-    width: 100%;
+    // width: 100%;
   }
   input {
     border: none;
@@ -50,5 +53,5 @@ const FormStyle = styled.form`
     color: white;
   }
 };
-`
+`;
 export default Search;

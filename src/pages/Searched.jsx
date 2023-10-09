@@ -39,8 +39,8 @@ const Grid = styled.div`
 `;
 const Card = styled.div`
   img {
-    width: 100%;
-    border-radius: 2rem;
+    width: 5rem;
+    border-radius: 3rem;
   }
   a {
     text-decoration: none;

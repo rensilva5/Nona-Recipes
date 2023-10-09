@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Nav>
           <TbToolsKitchen />
-          <Logo to={"/"}>GrandMa's Recipes</Logo>
+          <Logo to={"/"}>  Nona Recipes</Logo>
         </Nav>
         <Search />
         <Category />
@@ -26,9 +26,10 @@ const Logo = styled(Link)`
   font-size: 1.5rem;
   font-weight: 400;
   font-family: "Lobster Two", cursive;
+  color: "red";
 `;
 const Nav = styled.div`
-  padding: 4rem 0rem;
+  padding: 2rem 0rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
