@@ -32,7 +32,7 @@ function Traditional() {
   return (
     <div>
       <Wrapper>
-        <h3>Traditional Picks</h3>
+        <h3 className="picks-title">Traditional Picks</h3>
         <Splide
           options={{
             perPage: 3,
@@ -63,6 +63,9 @@ function Traditional() {
 
 const Wrapper = styled.div`
   margin: 4rem 4rem;
+  h3 {
+    text-align: center;
+  }
 `;
 const Card = styled.div`
   min-height: 10rem;
@@ -93,6 +96,9 @@ const Card = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  h3 {
+    justify-align: center;
   }
 `;
 
